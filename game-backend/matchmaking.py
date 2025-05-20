@@ -1,1 +1,6 @@
-def match_players(): pass
+import random
+
+def match_players(queue):
+    team_size = 5
+    random.shuffle(queue)
+    return [queue[i:i + team_size] for i in range(0, len(queue), team_size)]

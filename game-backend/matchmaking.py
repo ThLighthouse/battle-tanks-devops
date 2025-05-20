@@ -8,4 +8,3 @@ def match_players(queue):
 if __name__ == "__main__":
     players = [f"Player{i}" for i in range(10)]
     print(match_players(players))
-print("this is broken code")
